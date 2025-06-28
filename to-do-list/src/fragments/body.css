@@ -1,0 +1,43 @@
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 8px;
+}
+
+.addTask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3px;
+}
+
+.taskItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    width: 100% ;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    margin-bottom: 8px;
+}
+
+.buttonsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+.taskList{
+    width: 100%;
+}
